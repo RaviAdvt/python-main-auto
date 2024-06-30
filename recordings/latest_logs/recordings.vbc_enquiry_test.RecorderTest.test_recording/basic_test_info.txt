@@ -1,0 +1,21 @@
+vbc_enquiry_test.py::RecorderTest::test_recording
+--------------------------------------------------------------------
+Last Page: https://dev-main-master1.vedant.life/en/enquiry-vedant-english
+ Duration: 13.57s
+  Browser: Chrome 125.0.6422.141
+   Driver: chromedriver 125.0.6422.141
+Timestamp: 1719570664  (Unix Timestamp)
+     Date: Friday, 28 June 2024
+     Time: 4:01:04 PM  (IST, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "/home/ravi/Advaitwork/automation/python_Automation/main-automation/recordings/vbc_enquiry_test.py", line 18, in test_recording
+    self.select_option_by_text("select#form-field-profession", "Medical Professional")
+  File "/home/ravi/.local/lib/python3.10/site-packages/seleniumbase/fixtures/base_case.py", line 3113, in select_option_by_text
+    self.__select_option(
+  File "/home/ravi/.local/lib/python3.10/site-packages/seleniumbase/fixtures/base_case.py", line 3062, in __select_option
+    page_actions.timeout_exception(
+  File "/home/ravi/.local/lib/python3.10/site-packages/seleniumbase/fixtures/page_actions.py", line 252, in timeout_exception
+    raise exc(msg)
+Exception: 
+ Element {select#form-field-profession} has no selectable text option {Medical Professional}!
