@@ -1,0 +1,22 @@
+fill_enquiry_test.py::Testcases::test_gitaenquiry
+--------------------------------------------------------------------
+Last Page: [WARNING! Browser Not Open!]
+ Duration: 24.09s
+  Browser: Chrome 126.0.6478.128
+   Driver: chromedriver 126.0.6478.126
+Timestamp: 1721793796  (Unix Timestamp)
+     Date: Wednesday, 24 July 2024
+     Time: 9:33:16 AM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "C:\Users\kravi\repos\automation\python_Automation\main-automation\fill_enquiry_test.py", line 17, in test_gitaenquiry
+    self.click("div#svelte div:nth-of-type(2) div:nth-of-type(2) div div:nth-of-type(4) div:nth-of-type(3) button")
+  File "c:\Users\kravi\AppData\Local\Programs\Python\Python312\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 422, in click
+    self.__scroll_to_element(element, selector, by)
+  File "c:\Users\kravi\AppData\Local\Programs\Python\Python312\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 13571, in __scroll_to_element
+    self.wait_for_ready_state_complete()
+  File "c:\Users\kravi\AppData\Local\Programs\Python\Python312\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 4464, in wait_for_ready_state_complete
+    self._check_browser()
+  File "c:\Users\kravi\AppData\Local\Programs\Python\Python312\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 8909, in _check_browser
+    raise NoSuchWindowException("Active window was already closed!")
+Exception: Message: Active window was already closed!

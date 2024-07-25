@@ -5,7 +5,8 @@ import os
 
 load_dotenv(dotenv_path= ".env")
 # mainbaseUrl = os.getenv("mainbaseUrl")
-mainbaseUrl = "https://dev-main-master1.vedant.life"
+# mainbaseUrl = "https://dev-main-master1.vedant.life"
+mainbaseUrl = "https://dev-main1.vedant.life"
 
 
 class Testcases(BaseCase):
